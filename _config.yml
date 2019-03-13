@@ -5,7 +5,7 @@
 # Site
 title: 若朴的个人博客
 subtitle: 一个码农的修行道场
-description: <p>万物有道，吾性自足</p><p>CODING是一场修行</p>
+description: 万物有道，吾性自足<br />CODING是一场修行
 keywords: 区块链,golang,云计算,修行,悟道
 author: 若朴子
 language: zh-CN
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://irendui.com/
+url: https://ruopuzi.github.io/
 root: ""
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,4 +78,7 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:ruopuzi/ruopu.github.io.git #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: master #published
+  message: my blog update
